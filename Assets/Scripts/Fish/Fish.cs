@@ -94,4 +94,8 @@ public class Fish : MonoBehaviour
 
         transform.rotation = rotation;
     }
+
+    public void Eat() {
+        animator.SetTrigger("trg_eat");
+    }
 }
