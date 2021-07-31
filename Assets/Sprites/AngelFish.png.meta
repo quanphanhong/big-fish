@@ -1,0 +1,888 @@
+fileFormatVersion: 2
+guid: 634fb478816314aeda7324a219d32aeb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5459531582787955355
+    second: AngelFish_Eat_0
+  - first:
+      213: -9145680564717559845
+    second: AngelFish_Eat_1
+  - first:
+      213: -6048612721873660477
+    second: AngelFish_Eat_2
+  - first:
+      213: 5467485462316241129
+    second: AngelFish_Eat_3
+  - first:
+      213: 2927047209931916442
+    second: AngelFish_Eat_4
+  - first:
+      213: 5696977990279204699
+    second: AngelFish_Eat_5
+  - first:
+      213: -5317313634656994039
+    second: AngelFish_Idle_0
+  - first:
+      213: -4666437107042249296
+    second: AngelFish_Idle_1
+  - first:
+      213: -8132781186342765027
+    second: AngelFish_Idle_2
+  - first:
+      213: 4257377409212324994
+    second: AngelFish_Idle_3
+  - first:
+      213: -1215061297563938284
+    second: AngelFish_Idle_4
+  - first:
+      213: -1954456381849759065
+    second: AngelFish_Idle_5
+  - first:
+      213: 7923475244881344371
+    second: AngelFish_Swim_0
+  - first:
+      213: -914475074566916524
+    second: AngelFish_Swim_1
+  - first:
+      213: -6384381653387154535
+    second: AngelFish_Swim_2
+  - first:
+      213: -6928916768931645516
+    second: AngelFish_Swim_3
+  - first:
+      213: -2467614890657550041
+    second: AngelFish_Swim_4
+  - first:
+      213: 1611145922037743240
+    second: AngelFish_Swim_5
+  - first:
+      213: -2505667248226836428
+    second: AngelFish_Swim_6
+  - first:
+      213: 2902783261886702989
+    second: AngelFish_Swim_7
+  - first:
+      213: 4676571707552208632
+    second: AngelFish_Swim_8
+  - first:
+      213: -4719958261058248512
+    second: AngelFish_Swim_9
+  - first:
+      213: -805089508032135778
+    second: AngelFish_Swim_10
+  - first:
+      213: 976933758701864335
+    second: AngelFish_Swim_11
+  - first:
+      213: -435483671082027867
+    second: AngelFish_Swim_12
+  - first:
+      213: -7863447518978199308
+    second: AngelFish_Swim_13
+  - first:
+      213: 3336490703521527593
+    second: AngelFish_Swim_14
+  - first:
+      213: 863203303565000443
+    second: AngelFish_Turn_0
+  - first:
+      213: 224127296323580251
+    second: AngelFish_Turn_1
+  - first:
+      213: -2335229485774819479
+    second: AngelFish_Turn_2
+  - first:
+      213: 5977636313318815099
+    second: AngelFish_Turn_3
+  - first:
+      213: 5071478345036703452
+    second: AngelFish_Turn_4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AngelFish_Eat_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 319
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a2a187c0724cb40800000000000000
+      internalID: 5459531582787955355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Eat_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 319
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdfd0d67bf3041180800000000000000
+      internalID: -9145680564717559845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Eat_2
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 319
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5dfc0c6c20f0ca0800000000000000
+      internalID: -6048612721873660477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Eat_3
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 319
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0d8fb5f0960eb40800000000000000
+      internalID: 5467485462316241129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Eat_4
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 319
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a944ac4ede5fe9820800000000000000
+      internalID: 2927047209931916442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Eat_5
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 319
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f8fcb5c4bbf0f40800000000000000
+      internalID: 5696977990279204699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 213
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90dbdeeeb6b1536b0800000000000000
+      internalID: -5317313634656994039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 213
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b59b0ccc2c7d3fb0800000000000000
+      internalID: -4666437107042249296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 213
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e3f00b99e822f80800000000000000
+      internalID: -8132781186342765027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 213
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c9fd6723e351b30800000000000000
+      internalID: 4257377409212324994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 213
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4125062003c332fe0800000000000000
+      internalID: -1215061297563938284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 213
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a299de964060e4e0800000000000000
+      internalID: -1954456381849759065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Swim_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 107
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377f0cd31c6d5fd60800000000000000
+      internalID: 7923475244881344371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Swim_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 107
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4567d78c3c12f43f0800000000000000
+      internalID: -914475074566916524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Swim_2
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 107
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b665f46be1667a0800000000000000
+      internalID: -6384381653387154535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Swim_3
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 107
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7f49dd8ea87df90800000000000000
+      internalID: -6928916768931645516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Swim_4
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 107
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72174e7b45541cdd0800000000000000
+      internalID: -2467614890657550041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Swim_5
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 107
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ef06c0ea0fb5610800000000000000
+      internalID: 1611145922037743240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Swim_6
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 107
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430eb10d9e41a3dd0800000000000000
+      internalID: -2505667248226836428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Swim_7
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 107
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85e4b04ff1c84820800000000000000
+      internalID: 2902783261886702989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Swim_8
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 107
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f69a43c03586e040800000000000000
+      internalID: 4676571707552208632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Swim_9
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 107
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0e3fe08f65f7eb0800000000000000
+      internalID: -4719958261058248512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Swim_10
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 107
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9db955ab5fb3d4f0800000000000000
+      internalID: -805089508032135778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Swim_11
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 107
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f850388d314ce8d00800000000000000
+      internalID: 976933758701864335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Swim_12
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 107
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a43caf88e9d4f9f0800000000000000
+      internalID: -435483671082027867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Swim_13
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 107
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0b061d42c6fd290800000000000000
+      internalID: -7863447518978199308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Swim_14
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 107
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9273bcb0e989d4e20800000000000000
+      internalID: 3336490703521527593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Turn_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe7fe5c4d6bafb00800000000000000
+      internalID: 863203303565000443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Turn_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51f5d9a6924c1300800000000000000
+      internalID: 224127296323580251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Turn_2
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96faf5fb729979fd0800000000000000
+      internalID: -2335229485774819479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Turn_3
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75f7db5e84d4f250800000000000000
+      internalID: 5977636313318815099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngelFish_Turn_4
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6aff95fa2816640800000000000000
+      internalID: 5071478345036703452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
