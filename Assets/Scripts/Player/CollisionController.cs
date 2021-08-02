@@ -6,7 +6,6 @@ public class CollisionController : MonoBehaviour
 {
     void OnCollisionEnter2D(Collision2D other)
     {
-        Debug.Log("Eat");
         Fish currentFish = GetComponent<Fish>();
         Fish otherFish = other.gameObject.GetComponent<Fish>();
         if (otherFish.GetStrength() < currentFish.GetStrength()) {

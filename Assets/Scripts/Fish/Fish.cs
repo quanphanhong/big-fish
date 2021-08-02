@@ -7,17 +7,17 @@ public class Fish : MonoBehaviour
     [SerializeField] protected float movingSpeed = 5f;
     [SerializeField] protected bool isPlayer;
     [SerializeField] protected int strength;
-    Camera cam;
+    protected Camera m_cam;
     Animator animator;
-    Vector2 screenSize;
+    protected Vector2 m_screenSize;
     protected Vector3 _movingVector;
     float _horizontalInput = 0f, _verticalInput = 0f;
-    bool _isFacingLeft = true;
+    protected bool _isFacingLeft = true;
 
     void Awake()
     {
-        screenSize = new Vector2(Screen.width, Screen.height);
-        cam = GameObject.Find("Main Camera").GetComponent<Camera>();
+        m_screenSize = new Vector2(Screen.width, Screen.height);
+        m_cam = GameObject.Find("Main Camera").GetComponent<Camera>();
         animator = GetComponent<Animator>();
     }
 
@@ -58,7 +58,7 @@ public class Fish : MonoBehaviour
     }
 
     void KeepPlayerInTheCamera() {
-        Vector3 screenSizeInWorld = cam.ScreenToWorldPoint(screenSize);
+        Vector3 screenSizeInWorld = m_cam.ScreenToWorldPoint(m_screenSize);
         Vector3 validatedPosition = new Vector3(
             Mathf.Clamp(transform.position.x, -screenSizeInWorld.x, screenSizeInWorld.x),
             Mathf.Clamp(transform.position.y, -screenSizeInWorld.y, screenSizeInWorld.y),

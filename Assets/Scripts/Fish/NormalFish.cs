@@ -12,8 +12,8 @@ public class NormalFish : Fish
     }
 
     protected override Vector3 AutoControl() {
-        Vector3 speed = direction * movingSpeed * Time.deltaTime;
-        transform.Translate(speed);
-        return speed;
+        Vector3 distance = direction * movingSpeed * Time.deltaTime;
+        transform.Translate(distance);
+        return distance;
     }
 }
