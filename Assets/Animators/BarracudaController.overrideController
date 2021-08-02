@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BarracudaController
+  m_Controller: {fileID: 9100000, guid: 6ba02e24c8b06463b8115dffd52fe56b, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 70ce797ef312e42eba4e15a663c871e8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: be3a8e053ae6d47a8a27ff4f0c687f31, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d0273485b76584f3aa32ba55bcbf776c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2ef83397aefbf4b9f8d85f508345bf6c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: cdc0aac1e4b874298aafe7e102ae493f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2ef83397aefbf4b9f8d85f508345bf6c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4ccbe7dc8ac3f41c69b0104d5be13aa4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 63bd7115eae6344329f6999e22b14fc7, type: 2}

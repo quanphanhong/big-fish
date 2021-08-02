@@ -1,0 +1,720 @@
+fileFormatVersion: 2
+guid: 8ae61ebbb978e4dfdbcb41cbc87d526f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5225377151968366255
+    second: Barracudar_Eat_0
+  - first:
+      213: 4783686896662984540
+    second: Barracudar_Eat_1
+  - first:
+      213: -6895137777367192002
+    second: Barracudar_Eat_2
+  - first:
+      213: 4346137822076896476
+    second: Barracudar_Eat_3
+  - first:
+      213: 7220418406697118671
+    second: Barracudar_Eat_4
+  - first:
+      213: -915896443704921025
+    second: Barracudar_Eat_5
+  - first:
+      213: 3158675094269345578
+    second: Barracudar_Swim_13
+  - first:
+      213: 5865989473201300056
+    second: Barracudar_Swim_0
+  - first:
+      213: -8338746794511134287
+    second: Barracudar_Swim_1
+  - first:
+      213: 1383621334469867095
+    second: Barracudar_Swim_2
+  - first:
+      213: -6658142907298094167
+    second: Barracudar_Swim_3
+  - first:
+      213: 1047680667652929116
+    second: Barracudar_Swim_4
+  - first:
+      213: 3466854711778557930
+    second: Barracudar_Swim_5
+  - first:
+      213: -2076236211132216220
+    second: Barracudar_Swim_6
+  - first:
+      213: 3892695648988527794
+    second: Barracudar_Swim_7
+  - first:
+      213: -2910426139537696221
+    second: Barracudar_Swim_8
+  - first:
+      213: 7324266523616194871
+    second: Barracudar_Swim_9
+  - first:
+      213: 6693045476112698955
+    second: Barracudar_Swim_10
+  - first:
+      213: -6785741690261172857
+    second: Barracudar_Swim_11
+  - first:
+      213: 6827626970483928954
+    second: Barracudar_Swim_12
+  - first:
+      213: 4499643729242792222
+    second: Barracudar_Turn_0
+  - first:
+      213: -1026770174130068579
+    second: Barracudar_Turn_1
+  - first:
+      213: 5636146078739796966
+    second: Barracudar_Turn_2
+  - first:
+      213: -4712472731856472218
+    second: Barracudar_Turn_3
+  - first:
+      213: 3973189550477771038
+    second: Barracudar_Turn_4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Barracudar_Eat_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 271
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae4480a5d4448840800000000000000
+      internalID: 5225377151968366255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barracudar_Eat_1
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 242
+        width: 207
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57b94033e1136240800000000000000
+      internalID: 4783686896662984540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barracudar_Eat_2
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 241
+        width: 272
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ee6a639bc8f40a0800000000000000
+      internalID: -6895137777367192002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barracudar_Eat_3
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 251
+        width: 272
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd488c58255905c30800000000000000
+      internalID: 4346137822076896476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barracudar_Eat_4
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 257
+        width: 264
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbafd41944143460800000000000000
+      internalID: 7220418406697118671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barracudar_Eat_5
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 251
+        width: 272
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34bced79051a43f0800000000000000
+      internalID: -915896443704921025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barracudar_Swim_13
+      rect:
+        serializedVersion: 2
+        x: 3524
+        y: 124
+        width: 237
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f3cca434ed5db20800000000000000
+      internalID: 3158675094269345578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barracudar_Swim_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 127
+        width: 231
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8522856b85e286150800000000000000
+      internalID: 5865989473201300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barracudar_Swim_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 124
+        width: 238
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b19c3198f1d64c80800000000000000
+      internalID: -8338746794511134287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barracudar_Swim_2
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 132
+        width: 246
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7567ab0e54c933310800000000000000
+      internalID: 1383621334469867095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barracudar_Swim_3
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 131
+        width: 249
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3e5ba5d468993a0800000000000000
+      internalID: -6658142907298094167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barracudar_Swim_4
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 137
+        width: 244
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c563f71340c1a8e00800000000000000
+      internalID: 1047680667652929116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barracudar_Swim_5
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 138
+        width: 235
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef337ffdfdbc1030800000000000000
+      internalID: 3466854711778557930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barracudar_Swim_6
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 140
+        width: 224
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c49a59a2abf23e0800000000000000
+      internalID: -2076236211132216220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barracudar_Swim_7
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 142
+        width: 221
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc7ba08112a50630800000000000000
+      internalID: 3892695648988527794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barracudar_Swim_8
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 141
+        width: 224
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a18df98d61c97d0800000000000000
+      internalID: -2910426139537696221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barracudar_Swim_9
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 138
+        width: 233
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731bd6cf89505a560800000000000000
+      internalID: 7324266523616194871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barracudar_Swim_10
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 137
+        width: 243
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e8b35366972ec50800000000000000
+      internalID: 6693045476112698955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barracudar_Swim_11
+      rect:
+        serializedVersion: 2
+        x: 2981
+        y: 131
+        width: 246
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d8c6692e334d1a0800000000000000
+      internalID: -6785741690261172857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barracudar_Swim_12
+      rect:
+        serializedVersion: 2
+        x: 3251
+        y: 127
+        width: 243
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f229a2e8a90ce50800000000000000
+      internalID: 6827626970483928954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barracudar_Turn_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 23
+        width: 167
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11a451b122f17e30800000000000000
+      internalID: 4499643729242792222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barracudar_Turn_1
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 0
+        width: 209
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93e20977fd20c1f0800000000000000
+      internalID: -1026770174130068579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barracudar_Turn_2
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 0
+        width: 181
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e31f7d3ffc973e40800000000000000
+      internalID: 5636146078739796966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barracudar_Turn_3
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 0
+        width: 102
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667faf3a40fe99eb0800000000000000
+      internalID: -4712472731856472218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barracudar_Turn_4
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 1
+        width: 165
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11858568da932730800000000000000
+      internalID: 3973189550477771038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
