@@ -1,0 +1,648 @@
+fileFormatVersion: 2
+guid: 1d7250fc34b4d495b99381373597bd19
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6365431279602286763
+    second: Minnow_Swim_0
+  - first:
+      213: 8423341434948082676
+    second: Minnow_Swim_1
+  - first:
+      213: 2667841663732619666
+    second: Minnow_Swim_2
+  - first:
+      213: 2834183612744426244
+    second: Minnow_Swim_3
+  - first:
+      213: -6236156444059449570
+    second: Minnow_Swim_4
+  - first:
+      213: -945542534697513262
+    second: Minnow_Swim_5
+  - first:
+      213: -2600547011093595515
+    second: Minnow_Swim_6
+  - first:
+      213: -568117925323067001
+    second: Minnow_Swim_7
+  - first:
+      213: 1706858482280990989
+    second: Minnow_Swim_8
+  - first:
+      213: -2128368725350655850
+    second: Minnow_Swim_9
+  - first:
+      213: 4741664662429349389
+    second: Minnow_Swim_10
+  - first:
+      213: -6250288600446410710
+    second: Minnow_Swim_11
+  - first:
+      213: 5464495846324299054
+    second: Minnow_Swim_12
+  - first:
+      213: -4151569844348808430
+    second: Minnow_Swim_13
+  - first:
+      213: 5263889665636469245
+    second: Minnow_Swim_14
+  - first:
+      213: -8359212790532092224
+    second: Minnow_Turn_0
+  - first:
+      213: 5468214036898389558
+    second: Minnow_Turn_1
+  - first:
+      213: -7538764357218300881
+    second: Minnow_Turn_2
+  - first:
+      213: 7807969298942921791
+    second: Minnow_Turn_3
+  - first:
+      213: -1444559142253259137
+    second: Minnow_Turn_4
+  - first:
+      213: -3865387993209016617
+    second: Minnow_Turn_5
+  - first:
+      213: -4117531615140469283
+    second: Minnow_Turn_6
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Minnow_Swim_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 59
+        width: 61
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0cad6f50e865850800000000000000
+      internalID: 6365431279602286763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minnow_Swim_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 59
+        width: 62
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbd8e30868b5e470800000000000000
+      internalID: 8423341434948082676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minnow_Swim_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 59
+        width: 63
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29915cbbbd3160520800000000000000
+      internalID: 2667841663732619666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minnow_Swim_3
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 59
+        width: 63
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4036dd9cafa055720800000000000000
+      internalID: 2834183612744426244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minnow_Swim_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 60
+        width: 61
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17c21431c8b479a0800000000000000
+      internalID: -6236156444059449570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minnow_Swim_5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 60
+        width: 60
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de055b0312c0e2f0800000000000000
+      internalID: -945542534697513262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minnow_Swim_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 60
+        width: 61
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58aff0e854009ebd0800000000000000
+      internalID: -2600547011093595515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minnow_Swim_7
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 59
+        width: 63
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7813696c1c3ad18f0800000000000000
+      internalID: -568117925323067001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minnow_Swim_8
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 59
+        width: 63
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09883e0fbaffa710800000000000000
+      internalID: 1706858482280990989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minnow_Swim_9
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 60
+        width: 60
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6985c6ebbe38672e0800000000000000
+      internalID: -2128368725350655850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minnow_Swim_10
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 60
+        width: 59
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06bf1853e6cdc140800000000000000
+      internalID: 4741664662429349389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minnow_Swim_11
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 61
+        width: 60
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20e7b222a38249a0800000000000000
+      internalID: -6250288600446410710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minnow_Swim_12
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 59
+        width: 63
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25e1c4250ac5db40800000000000000
+      internalID: 5464495846324299054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minnow_Swim_13
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 58
+        width: 63
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2139d57f839a266c0800000000000000
+      internalID: -4151569844348808430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minnow_Swim_14
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 58
+        width: 62
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df98c19f2c71d0940800000000000000
+      internalID: 5263889665636469245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minnow_Turn_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 61
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cece6a814c1efb80800000000000000
+      internalID: -8359212790532092224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minnow_Turn_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 13
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e1229d1bff2eb40800000000000000
+      internalID: 5468214036898389558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minnow_Turn_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 11
+        width: 57
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c80aa52cde06790800000000000000
+      internalID: -7538764357218300881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minnow_Turn_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 10
+        width: 63
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c06a085ba7b5c60800000000000000
+      internalID: 7807969298942921791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minnow_Turn_4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 10
+        width: 63
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7693fc1d15e3fbe0800000000000000
+      internalID: -1444559142253259137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minnow_Turn_5
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 10
+        width: 61
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de67b199126b5ac0800000000000000
+      internalID: -3865387993209016617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minnow_Turn_6
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 10
+        width: 60
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5ac18cfc69bd6c0800000000000000
+      internalID: -4117531615140469283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
