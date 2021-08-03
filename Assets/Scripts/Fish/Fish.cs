@@ -7,8 +7,8 @@ public class Fish : MonoBehaviour
     [SerializeField] protected float movingSpeed = 5f;
     [SerializeField] protected bool isPlayer;
     [SerializeField] protected int strength;
-    protected Camera m_cam;
-    Animator animator;
+    protected CameraHandler m_cameraHandler;
+    Animator _animator;
     protected Vector2 m_screenSize;
     protected Vector3 _movingVector;
     float _horizontalInput = 0f, _verticalInput = 0f;
@@ -16,9 +16,10 @@ public class Fish : MonoBehaviour
 
     void Awake()
     {
-        m_screenSize = new Vector2(Screen.width, Screen.height);
-        m_cam = GameObject.Find("Main Camera").GetComponent<Camera>();
-        animator = GetComponent<Animator>();
+        m_cameraHandler = GameObject.Find("Main Camera").GetComponent<CameraHandler>();
+        m_screenSize = m_cameraHandler.GetScreenSize();
+
+        _animator = GetComponent<Animator>();
     }
 
     public void SetPlayer(bool value) {
@@ -58,7 +59,7 @@ public class Fish : MonoBehaviour
     }
 
     void KeepPlayerInTheCamera() {
-        Vector3 screenSizeInWorld = m_cam.ScreenToWorldPoint(m_screenSize);
+        Vector3 screenSizeInWorld = m_cameraHandler.GetScreenSizeInWorld();
         Vector3 validatedPosition = new Vector3(
             Mathf.Clamp(transform.position.x, -screenSizeInWorld.x, screenSizeInWorld.x),
             Mathf.Clamp(transform.position.y, -screenSizeInWorld.y, screenSizeInWorld.y),
@@ -70,25 +71,26 @@ public class Fish : MonoBehaviour
     protected virtual Vector3 AutoControl() => Vector3.zero;
 
     void SetAnimatorSpeed(Vector3 movingVector) {
-        if (animator != null) {
-            animator.SetFloat("f_speed", movingVector.sqrMagnitude);
+        if (_animator != null) {
+            _animator.SetFloat("f_speed", movingVector.sqrMagnitude);
         }
     }
 
     void SetAnimatorTriggerFlip() {
-        animator.SetTrigger("trg_flip");
+        _animator.SetTrigger("trg_flip");
     }
 
     void HandleDirection(Vector3 movingVector) {
         Quaternion rotation = transform.rotation;
+        rotation.x = 0f;
 
         if (movingVector.x > 0f && _isFacingLeft) {
             SetAnimatorTriggerFlip();
-            rotation.y = -180;
+            rotation.y = -180f;
             _isFacingLeft = false;
         } else if (movingVector.x > 0f && !_isFacingLeft) {
             SetAnimatorTriggerFlip();
-            rotation.y = 0;
+            rotation.y = 0f;
             _isFacingLeft = true;
         }
 
@@ -96,6 +98,6 @@ public class Fish : MonoBehaviour
     }
 
     public void Eat() {
-        animator.SetTrigger("trg_eat");
+        _animator.SetTrigger("trg_eat");
     }
 }

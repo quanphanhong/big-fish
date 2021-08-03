@@ -29,31 +29,34 @@ public class Minnow : Fish
     }
 
     private bool CheckMovingEnd(Vector3 destination) {
+        return (/*IsOutOfScreen() || */IsMovingAwayFromDestination(destination) || IsNearPlayer());
+    }
+
+    private bool IsOutOfScreen() {
+        Vector3 screenSizeInWorld = m_cameraHandler.GetScreenSizeInWorld();
+        return (transform.position.x < -screenSizeInWorld.x ||
+                transform.position.x > screenSizeInWorld.x ||
+                transform.position.y < -screenSizeInWorld.y ||
+                transform.position.y > screenSizeInWorld.y);
+    }
+
+    private bool IsMovingAwayFromDestination(Vector3 destination) {
         Vector3 predictedNextPosition = GetNextStep();
 
-        Vector3 screenSizeInWorld = m_cam.ScreenToWorldPoint(m_screenSize);
-        if (transform.position.x < -screenSizeInWorld.x ||
-            transform.position.x > screenSizeInWorld.x ||
-            transform.position.y < -screenSizeInWorld.y ||
-            transform.position.y > screenSizeInWorld.y) {
-                return true;
-            }
-        
         Vector3 predictedPositionToDestinationVector = destination - predictedNextPosition;
         Vector3 currentPositionToDestinationVector = destination - transform.position; 
-        if (predictedPositionToDestinationVector.magnitude >
-            currentPositionToDestinationVector.magnitude)
-            return true;
 
+        return (predictedPositionToDestinationVector.magnitude >
+            currentPositionToDestinationVector.magnitude);
+    }
+
+    private bool IsNearPlayer() {
         Vector3 currentPositionToPlayerVector = _player.transform.position - transform.position;
-        if (currentPositionToPlayerVector.magnitude < _allowingDistanceToPlayer)
-            return true;
-
-        return false;
+        return (currentPositionToPlayerVector.magnitude < _allowingDistanceToPlayer);
     }
 
     private Vector3 GenerateNextPositionToMove() {
-        Vector3 screenSizeInWorld = m_cam.ScreenToWorldPoint(m_screenSize);
+        Vector3 screenSizeInWorld = m_cameraHandler.GetScreenSizeInWorld();
         return new Vector3(Random.Range(-screenSizeInWorld.x, screenSizeInWorld.x),
             Random.Range(-screenSizeInWorld.y, screenSizeInWorld.y),0);
     }
