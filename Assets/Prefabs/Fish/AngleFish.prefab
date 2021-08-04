@@ -113,6 +113,7 @@ MonoBehaviour:
   movingSpeed: 5
   isPlayer: 0
   strength: 1
+  _scoreValue: 3000
 --- !u!95 &2365601248398994994
 Animator:
   serializedVersion: 3

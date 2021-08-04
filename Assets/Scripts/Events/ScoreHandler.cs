@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScoreRenderer : MonoBehaviour
+public class ScoreHandler : MonoBehaviour
 {
     int _score;
-    float _scoreIncreasingSpeed = 5f;
+    float _scoreIncreasingSpeed = 5000f;
     UnityEngine.UI.Text _scoreText;
 
     void Start()
@@ -13,11 +13,13 @@ public class ScoreRenderer : MonoBehaviour
         _scoreText = GetComponent<UnityEngine.UI.Text>();
     }
 
-    void SetScore(int score) => _score = score;
-    void AddScore(int score) => _score += score;
+    public void SetScore(int score) => _score = score;
+    public void AddScore(int score) => _score += score;
+    public void ResetScore() => _score = 0;
 
     void Update()
     {
+        Debug.Log(_score);
         UpdateScoreText();
     }
 
@@ -29,6 +31,7 @@ public class ScoreRenderer : MonoBehaviour
 
     int GetCurrentScore() {
         int addingScore = Mathf.RoundToInt(_scoreIncreasingSpeed * Time.deltaTime);
+        Debug.Log(addingScore);
         int currentScore = int.Parse(_scoreText.text) + addingScore;
         return Mathf.Clamp(currentScore, 0, _score);
     }

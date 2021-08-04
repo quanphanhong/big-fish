@@ -7,6 +7,8 @@ public class Fish : MonoBehaviour
     [SerializeField] protected float movingSpeed = 5f;
     [SerializeField] protected bool isPlayer;
     [SerializeField] protected int strength;
+    [SerializeField] private int _scoreValue; // Score that another fish will gain after eating this fish
+    private ScoreHandler _scoreHandler;
     protected CameraHandler m_cameraHandler;
     Animator _animator;
     protected Vector2 m_screenSize;
@@ -18,7 +20,8 @@ public class Fish : MonoBehaviour
     {
         m_cameraHandler = GameObject.Find("Main Camera").GetComponent<CameraHandler>();
         m_screenSize = m_cameraHandler.GetScreenSize();
-
+        
+        _scoreHandler = GameObject.Find("Score").GetComponent<ScoreHandler>();
         _animator = GetComponent<Animator>();
     }
 
@@ -28,6 +31,10 @@ public class Fish : MonoBehaviour
 
     public int GetStrength() {
         return strength;
+    }
+
+    public int GetScoreValue() {
+        return _scoreValue;
     }
 
     void Update()
@@ -83,6 +90,7 @@ public class Fish : MonoBehaviour
     void HandleDirection(Vector3 movingVector) {
         Quaternion rotation = transform.rotation;
         rotation.x = 0f;
+        rotation.z = 0f;
 
         if (movingVector.x > 0f && _isFacingLeft) {
             SetAnimatorTriggerFlip();
@@ -97,7 +105,12 @@ public class Fish : MonoBehaviour
         transform.rotation = rotation;
     }
 
-    public void Eat() {
+    public void Eat(GameObject eatenObject) {
+        if (isPlayer) {
+            Fish eatenFish = eatenObject.GetComponent<Fish>();
+            _scoreHandler.AddScore(eatenFish.GetScoreValue());
+        }
+
         _animator.SetTrigger("trg_eat");
     }
 }

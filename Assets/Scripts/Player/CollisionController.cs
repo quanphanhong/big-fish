@@ -9,7 +9,7 @@ public class CollisionController : MonoBehaviour
         Fish currentFish = GetComponent<Fish>();
         Fish otherFish = other.gameObject.GetComponent<Fish>();
         if (otherFish.GetStrength() < currentFish.GetStrength()) {
-            currentFish.Eat();
+            currentFish.Eat(other.gameObject);
             Destroy(other.gameObject);
         }
     }
