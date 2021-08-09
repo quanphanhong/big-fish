@@ -25,11 +25,6 @@ public class Fish : MonoBehaviour
         m_cameraHandler = GameObject.Find("Main Camera").GetComponent<CameraHandler>();
         m_screenSize = m_cameraHandler.GetScreenSize();
         
-        try {
-            _scoreHandler = GameObject.Find("Score").GetComponent<ScoreHandler>();
-        } catch(Exception ex) {
-            Debug.Log(ex.Message);
-        }
         _animator = GetComponent<Animator>();
     }
 
@@ -111,9 +106,18 @@ public class Fish : MonoBehaviour
     public void Eat(GameObject eatenObject) {
         if (isPlayer) {
             Fish eatenFish = eatenObject.GetComponent<Fish>();
+            GetScoreHandlerIfNotExists();
             _scoreHandler.AddScore(eatenFish.GetScoreValue());
         }
 
         _animator.SetTrigger("trg_eat");
+    }
+
+    void GetScoreHandlerIfNotExists() {
+        try {
+            _scoreHandler = GameObject.Find("Score").GetComponent<ScoreHandler>();
+        } catch(Exception ex) {
+            Debug.Log(ex.Message);
+        }
     }
 }
