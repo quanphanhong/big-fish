@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,12 +7,15 @@ public class Fish : MonoBehaviour
 {
     [SerializeField] protected float movingSpeed = 5f;
     [SerializeField] protected bool isPlayer;
+    protected bool isFreezed = false;
     [SerializeField] protected int strength;
     [SerializeField] private int _scoreValue; // Score that another fish will gain after eating this fish
+
     private ScoreHandler _scoreHandler;
     protected CameraHandler m_cameraHandler;
     Animator _animator;
     protected Vector2 m_screenSize;
+
     protected Vector3 _movingVector;
     float _horizontalInput = 0f, _verticalInput = 0f;
     protected bool _isFacingLeft = true;
@@ -21,21 +25,18 @@ public class Fish : MonoBehaviour
         m_cameraHandler = GameObject.Find("Main Camera").GetComponent<CameraHandler>();
         m_screenSize = m_cameraHandler.GetScreenSize();
         
-        _scoreHandler = GameObject.Find("Score").GetComponent<ScoreHandler>();
+        try {
+            _scoreHandler = GameObject.Find("Score").GetComponent<ScoreHandler>();
+        } catch(Exception ex) {
+            Debug.Log(ex.Message);
+        }
         _animator = GetComponent<Animator>();
     }
 
-    public void SetPlayer(bool value) {
-        isPlayer = value;
-    }
-
-    public int GetStrength() {
-        return strength;
-    }
-
-    public int GetScoreValue() {
-        return _scoreValue;
-    }
+    public void SetPlayer(bool value) => isPlayer = value;
+    public void SetFreezeState(bool state) => isFreezed = state;
+    public int GetStrength() => strength;
+    public int GetScoreValue() => _scoreValue;
 
     void Update()
     {
@@ -45,6 +46,8 @@ public class Fish : MonoBehaviour
     }
 
     Vector3 HandleController() {
+        if (isFreezed) return Vector3.zero;
+
         if (isPlayer)
             return PlayerControl();
         else
