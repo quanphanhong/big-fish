@@ -18,4 +18,11 @@ public class PreviewHandler : MonoBehaviour
     public void RetrievePreviousFish() {
         _selector.GeneratePreviousFish();
     }
+
+    public void Play() {
+        GameObject fishObject = _selector.GetCurrentFish();
+        Fish fish = fishObject.GetComponent<Fish>();
+        fish.SetFreezeState(false);
+        fishObject.tag = "Player";
+    }
 }

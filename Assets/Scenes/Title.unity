@@ -341,7 +341,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1856586725}
         m_TargetAssemblyTypeName: UIEventHandler, Assembly-CSharp
-        m_MethodName: StartGame
+        m_MethodName: Proceed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

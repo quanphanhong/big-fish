@@ -9,6 +9,11 @@ public class UIEventHandler : MonoBehaviour
     public void StartGame() {
         SceneManager.LoadScene(1);
     }
+
+    public void Proceed() {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex + 1);
+    }
     
     public void Exit() {
         #if UNITY_EDITOR

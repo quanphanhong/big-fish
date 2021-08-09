@@ -44,4 +44,6 @@ public class FishSelector : MonoBehaviour
         if (_currentIndex > 0) return _currentIndex - 1;
         return fishList.Count - 1;
     }
+
+    public GameObject GetCurrentFish() => _currentFish;
 }
