@@ -12,7 +12,7 @@ public class NormalFish : Fish
     }
 
     protected override Vector3 AutoControl() {
-        if (IsMovingAwayFromDestination(_destination)) {
+        if (IsMovingAwayFromDestination(_nextPosition)) {
             GenerateNextPositionToMove();
         }
 

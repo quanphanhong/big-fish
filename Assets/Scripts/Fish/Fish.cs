@@ -134,7 +134,7 @@ public class Fish : MonoBehaviour
             currentPositionToDestinationVector.magnitude);
     }
 
-    private Vector3 GetNextStep() {
+    protected Vector3 GetNextStep() {
         float step = movingSpeed * Time.deltaTime;
         return Vector3.MoveTowards(transform.position, _nextPosition, step);
     }
