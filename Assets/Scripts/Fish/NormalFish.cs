@@ -12,8 +12,19 @@ public class NormalFish : Fish
     }
 
     protected override Vector3 AutoControl() {
-        Vector3 distance = direction * movingSpeed * Time.deltaTime;
-        transform.Translate(distance);
-        return distance;
+        if (IsMovingAwayFromDestination(_destination)) {
+            GenerateNextPositionToMove();
+        }
+
+        transform.position = GetNextStep();
+
+        Vector3 distance = movingSpeed * Time.deltaTime * (_nextPosition - transform.position);
+        return (_isFacingLeft ? 1 : -1) * distance;
+    }
+
+    private Vector3 GenerateNextPositionToMove() {
+        Vector3 screenSizeInWorld = m_cameraHandler.GetScreenSizeInWorld();
+        return new Vector3(Random.Range(-screenSizeInWorld.x, screenSizeInWorld.x),
+            Random.Range(-screenSizeInWorld.y, screenSizeInWorld.y),0);
     }
 }

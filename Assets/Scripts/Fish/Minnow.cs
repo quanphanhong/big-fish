@@ -6,7 +6,6 @@ public class Minnow : Fish
 {
     GameObject _player;
     float _allowingDistanceToPlayer = 3f;
-    Vector3 _nextPosition;
     void Start()
     {
         _player = GameObject.FindGameObjectWithTag("Player");
@@ -40,16 +39,6 @@ public class Minnow : Fish
                 transform.position.y > screenSizeInWorld.y);
     }
 
-    private bool IsMovingAwayFromDestination(Vector3 destination) {
-        Vector3 predictedNextPosition = GetNextStep();
-
-        Vector3 predictedPositionToDestinationVector = destination - predictedNextPosition;
-        Vector3 currentPositionToDestinationVector = destination - transform.position; 
-
-        return (predictedPositionToDestinationVector.magnitude >
-            currentPositionToDestinationVector.magnitude);
-    }
-
     private bool IsNearPlayer() {
         Vector3 currentPositionToPlayerVector = _player.transform.position - transform.position;
         return (currentPositionToPlayerVector.magnitude < _allowingDistanceToPlayer);
@@ -59,10 +48,5 @@ public class Minnow : Fish
         Vector3 screenSizeInWorld = m_cameraHandler.GetScreenSizeInWorld();
         return new Vector3(Random.Range(-screenSizeInWorld.x, screenSizeInWorld.x),
             Random.Range(-screenSizeInWorld.y, screenSizeInWorld.y),0);
-    }
-
-    private Vector3 GetNextStep() {
-        float step = movingSpeed * Time.deltaTime;
-        return Vector3.MoveTowards(transform.position, _nextPosition, step);
     }
 }

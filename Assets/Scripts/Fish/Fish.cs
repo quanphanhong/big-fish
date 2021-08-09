@@ -20,6 +20,8 @@ public class Fish : MonoBehaviour
     float _horizontalInput = 0f, _verticalInput = 0f;
     protected bool _isFacingLeft = true;
 
+    protected Vector3 _nextPosition;
+
     void Awake()
     {
         m_cameraHandler = GameObject.Find("Main Camera").GetComponent<CameraHandler>();
@@ -115,9 +117,25 @@ public class Fish : MonoBehaviour
 
     void GetScoreHandlerIfNotExists() {
         try {
-            _scoreHandler = GameObject.Find("Score").GetComponent<ScoreHandler>();
+            _scoreHandler = GameObject
+                .Find("Score").GetComponent<ScoreHandler>();
         } catch(Exception ex) {
             Debug.Log(ex.Message);
         }
+    }
+
+    protected bool IsMovingAwayFromDestination(Vector3 destination) {
+        Vector3 predictedNextPosition = GetNextStep();
+
+        Vector3 predictedPositionToDestinationVector = destination - predictedNextPosition;
+        Vector3 currentPositionToDestinationVector = destination - transform.position; 
+
+        return (predictedPositionToDestinationVector.magnitude >
+            currentPositionToDestinationVector.magnitude);
+    }
+
+    private Vector3 GetNextStep() {
+        float step = movingSpeed * Time.deltaTime;
+        return Vector3.MoveTowards(transform.position, _nextPosition, step);
     }
 }
