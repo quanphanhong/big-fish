@@ -21,6 +21,7 @@ public class Fish : MonoBehaviour
     protected bool _isFacingLeft = true;
 
     protected Vector3 _nextPosition;
+    private FishSpawner _fishSpawner;
 
     void Awake()
     {
@@ -108,17 +109,29 @@ public class Fish : MonoBehaviour
     public void Eat(GameObject eatenObject) {
         if (isPlayer) {
             Fish eatenFish = eatenObject.GetComponent<Fish>();
+
             GetScoreHandlerIfNotExists();
             _scoreHandler.AddScore(eatenFish.GetScoreValue());
         }
 
         _animator.SetTrigger("trg_eat");
+
+        GetFishSpawnerIfNotExists();
+        _fishSpawner.RemoveFishCount(eatenObject);
     }
 
     void GetScoreHandlerIfNotExists() {
         try {
             _scoreHandler = GameObject
                 .Find("Score").GetComponent<ScoreHandler>();
+        } catch(Exception ex) {
+            Console.WriteLine(ex.Message);
+        }
+    }
+
+    void GetFishSpawnerIfNotExists() {
+        try {
+            _fishSpawner = GameObject.Find("FishSpawner").GetComponent<FishSpawner>();
         } catch(Exception ex) {
             Console.WriteLine(ex.Message);
         }

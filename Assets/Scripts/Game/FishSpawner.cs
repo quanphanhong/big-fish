@@ -6,6 +6,8 @@ public class FishSpawner : MonoBehaviour
 {
     CameraHandler _cameraHandler;
     [SerializeField] List<GameObject> fishToSpawn;
+    [SerializeField] List<int> maximumFish;
+    List<int> _currentFishCount;
 
     [SerializeField] float limitSpawningTime = 1f;
     [SerializeField] float distanceFromEdgesToSpawn = 2f;
@@ -17,6 +19,8 @@ public class FishSpawner : MonoBehaviour
     {
         _cameraHandler = GameObject.Find("Main Camera").GetComponent<CameraHandler>();
         _edge = new SpawningEdge();
+
+        _currentFishCount = new List<int>(new int[fishToSpawn.Count]);
     }
 
     void Update()
@@ -29,6 +33,9 @@ public class FishSpawner : MonoBehaviour
             // spawn
             Vector3 spawnPosition = GetPositionToSpawn();
             GameObject spawnObject = GetObjectToSpawn();
+
+            if (!spawnObject) return;
+
             Instantiate(spawnObject, spawnPosition, Quaternion.identity);
 
             // update last spawning time
@@ -63,9 +70,31 @@ public class FishSpawner : MonoBehaviour
         return new Vector3(spawnX, spawnY, 0f);
     }
 
+    // TODO implement object pool
     GameObject GetObjectToSpawn() {
         int index = Random.Range(0, 100) % fishToSpawn.Count;
+
+        if (_currentFishCount[index] >= maximumFish[index])
+            return null;
+
+        AddFishCount(fishToSpawn[index]);
         return fishToSpawn[index];
+    }
+
+    void AddFishCount(GameObject addedFish) {
+        for (int i = 0; i < fishToSpawn.Count; i++) {
+            if (fishToSpawn[i].tag.Equals(addedFish.tag)) {
+                _currentFishCount[i]++;
+            }
+        }
+    }
+
+    public void RemoveFishCount(GameObject removedFish) {
+        for (int i = 0; i < fishToSpawn.Count; i++) {
+            if (fishToSpawn[i].tag.Equals(removedFish.tag)) {
+                _currentFishCount[i]--;
+            }
+        }
     }
 
     class SpawningEdge {
