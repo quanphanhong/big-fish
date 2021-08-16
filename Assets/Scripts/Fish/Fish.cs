@@ -120,7 +120,7 @@ public class Fish : MonoBehaviour
             _scoreHandler = GameObject
                 .Find("Score").GetComponent<ScoreHandler>();
         } catch(Exception ex) {
-            Debug.Log(ex.Message);
+            Console.WriteLine(ex.Message);
         }
     }
 

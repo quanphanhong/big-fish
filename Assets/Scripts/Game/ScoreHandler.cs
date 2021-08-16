@@ -19,7 +19,6 @@ public class ScoreHandler : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(_score);
         UpdateScoreText();
     }
 
@@ -31,7 +30,6 @@ public class ScoreHandler : MonoBehaviour
 
     int GetCurrentScore() {
         int addingScore = Mathf.RoundToInt(_scoreIncreasingSpeed * Time.deltaTime);
-        Debug.Log(addingScore);
         int currentScore = int.Parse(_scoreText.text) + addingScore;
         return Mathf.Clamp(currentScore, 0, _score);
     }

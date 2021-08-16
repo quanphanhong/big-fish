@@ -40,6 +40,8 @@ public class Minnow : Fish
     }
 
     private bool IsNearPlayer() {
+        if (!_player) return false;
+
         Vector3 currentPositionToPlayerVector = _player.transform.position - transform.position;
         return (currentPositionToPlayerVector.magnitude < _allowingDistanceToPlayer);
     }

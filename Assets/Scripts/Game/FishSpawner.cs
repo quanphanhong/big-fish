@@ -64,7 +64,7 @@ public class FishSpawner : MonoBehaviour
     }
 
     GameObject GetObjectToSpawn() {
-        int index = Random.Range(0, fishToSpawn.Count - 1);
+        int index = Random.Range(0, 100) % fishToSpawn.Count;
         return fishToSpawn[index];
     }
 
