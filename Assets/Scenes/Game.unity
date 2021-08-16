@@ -166,7 +166,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bc3965f807e744c984553ddda3f0762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fishToSpawn: {fileID: 3086433797214456807, guid: 425f8ae82024c45dbbf110cdd0d5879e, type: 3}
+  fishToSpawn:
+  - {fileID: 5675242748133271296, guid: 97233dea9b01c4191b012fa79d1f28af, type: 3}
+  - {fileID: 3086433797214456807, guid: 425f8ae82024c45dbbf110cdd0d5879e, type: 3}
   limitSpawningTime: 1
   distanceFromEdgesToSpawn: 2
 --- !u!1 &999608123

@@ -5,7 +5,7 @@ using UnityEngine;
 public class FishSpawner : MonoBehaviour
 {
     CameraHandler _cameraHandler;
-    [SerializeField] GameObject fishToSpawn;
+    [SerializeField] List<GameObject> fishToSpawn;
 
     [SerializeField] float limitSpawningTime = 1f;
     [SerializeField] float distanceFromEdgesToSpawn = 2f;
@@ -28,7 +28,8 @@ public class FishSpawner : MonoBehaviour
         if (Time.time - _lastSpawningTime >= limitSpawningTime) {
             // spawn
             Vector3 spawnPosition = GetPositionToSpawn();
-            Instantiate(fishToSpawn, spawnPosition, Quaternion.identity);
+            GameObject spawnObject = GetObjectToSpawn();
+            Instantiate(spawnObject, spawnPosition, Quaternion.identity);
 
             // update last spawning time
             _lastSpawningTime = Time.time;
@@ -60,6 +61,11 @@ public class FishSpawner : MonoBehaviour
         }
 
         return new Vector3(spawnX, spawnY, 0f);
+    }
+
+    GameObject GetObjectToSpawn() {
+        int index = Random.Range(0, fishToSpawn.Count - 1);
+        return fishToSpawn[index];
     }
 
     class SpawningEdge {
